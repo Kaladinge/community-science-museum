@@ -12,6 +12,10 @@ body {
   width: 150px;
 }
 
+#person {
+  display: none;
+}
+
 #search {
   position: fixed;
   top: 38px;
@@ -92,17 +96,126 @@ nav {
 }
 
 /* Desktop */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
   #hamburger-menu,
   .fas {
     display: none;
   }
 
+  #logo {
+    margin-bottom: 39px;
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+
   nav {
     display: block;
+    top: 0;
+    right: 110px;
+    left: 120px;
+    font-size: 0.8em;
+    border: none;
   }
 
   .social-icons {
     display: none;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 700px;
+  }
+
+  .navigation {
+    margin: 0;
+    padding: 30px;
+    width: 100px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .navigation {
+    width: 80px;
+  }
+
+  #search {
+    right: 40px;
+  }
+
+  #person {
+    display: inline-block;
+    position: fixed;
+    width: 34px;
+    right: 80px;
+    top: 34px;
+  }
+
+  .top-menu {
+    border-bottom: 1px solid black;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1301px) {
+  #hamburger-menu,
+  .fas {
+    display: none;
+  }
+
+  #logo {
+    width: 220px;
+    margin-bottom: 22px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  nav {
+    display: block;
+    top: 0;
+    right: 120px;
+    left: 120px;
+    border: none;
+  }
+
+  .social-icons {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    width: 75%;
+    background-color: none;
+  }
+
+  .navigation {
+    margin: 0;
+    padding: 30px;
+    width: 100px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  #search {
+    right: 70px;
+  }
+
+  #person {
+    display: inline-block;
+    position: fixed;
+    width: 34px;
+    right: 110px;
+    top: 34px;
+  }
+
+  .top-menu {
+    border: 1px solid black;
   }
 }

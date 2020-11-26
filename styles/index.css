@@ -5,3 +5,16 @@
   text-decoration: underline;
   color: #f79420;
 }
+
+@media only screen and (min-width: 1301px) {
+  body {
+    background-image: url("../images/home-back.jpg");
+    background-size: cover;
+  }
+
+  .sheet {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
