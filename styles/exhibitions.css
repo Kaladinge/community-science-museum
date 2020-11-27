@@ -1,1 +1,40 @@
 @import "imports/header-footer.css";
+
+.exhibition {
+  width: 100%;
+}
+
+.link {
+  position: relative;
+}
+
+.category {
+  position: absolute;
+  background-color: #f79420;
+  color: white;
+  width: 200px;
+  bottom: 20px;
+  text-align: center;
+}
+
+.cosmology {
+  background-color: #ee2b2f;
+}
+
+.biology {
+  background-color: #006937;
+}
+
+.robotics {
+  background-color: #2b2a7a;
+}
+
+.ecology {
+  background-color: #faed23;
+  color: #006937;
+}
+
+.marine {
+  background-color: white;
+  color: #2b2a7a;
+}
