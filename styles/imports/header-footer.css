@@ -215,7 +215,8 @@ nav {
     top: 34px;
   }
 
-  .top-menu {
+  .sheet {
     border: 1px solid black;
+    display: fixed;
   }
 }

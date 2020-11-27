@@ -6,6 +6,55 @@
   color: #f79420;
 }
 
+#pic1 {
+  width: 100%;
+}
+
+.explore-together {
+  position: relative;
+  border: 1px solid black;
+}
+
+.text {
+  position: absolute;
+  bottom: 50px;
+  color: white;
+  max-width: 600px;
+}
+
+.text2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pic {
+  width: 45%;
+  padding: 10px;
+}
+
+.exhibition {
+  position: relative;
+}
+
+.category {
+  position: absolute;
+  background-color: #f79420;
+  border: 1px solid #707070;
+  color: white;
+  width: 200px;
+  bottom: 10px;
+}
+
+.exhibit-pictures {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.flexing {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (min-width: 1301px) {
   body {
     background-image: url("../images/home-back.jpg");
@@ -16,5 +65,9 @@
     background: white;
     width: 95%;
     margin: 0 auto;
+  }
+
+  .flexing {
+    flex-direction: row;
   }
 }
