@@ -38,3 +38,11 @@
   background-color: white;
   color: #2b2a7a;
 }
+
+@media only screen and (min-width: 1301px) {
+  .sheet {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
