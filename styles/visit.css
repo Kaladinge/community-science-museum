@@ -1,1 +1,32 @@
 @import "imports/header-footer.css";
+
+.museum {
+  width: 80%;
+  border: 1px solid black;
+}
+
+.clearfix {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+}
+
+.accessibility {
+  margin-bottom: 0;
+}
+
+.paragraph {
+  padding-top: 0;
+  margin-top: 5px;
+}
+
+.headliner {
+  margin-bottom: 0;
+}
+
+.hours {
+  margin-top: 0;
+}
