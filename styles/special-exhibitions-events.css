@@ -1,1 +1,42 @@
 @import "imports/header-footer.css";
+
+.headlines {
+  text-decoration: underline;
+}
+
+.news-pic {
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+.energetica {
+  padding-bottom: 60px;
+}
+
+.text {
+  border: 1px solid black;
+  margin-top: 0;
+}
+
+.published {
+  color: grey;
+  font-style: italic;
+  text-align: right;
+}
+
+.line {
+  margin-bottom: 40px;
+}
+
+.clearfix {
+  border: 1px solid black;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
