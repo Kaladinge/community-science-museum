@@ -33,7 +33,7 @@
 }
 
 .pics {
-  width: 45%;
+  width: 40%;
   margin: 10px;
   border: 1px solid grey;
 }
@@ -45,7 +45,7 @@
   color: white;
   width: 70%;
   bottom: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .explore-and-exhibit {

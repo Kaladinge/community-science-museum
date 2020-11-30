@@ -1,1 +1,14 @@
 @import "imports/header-footer.css";
+
+.exploration {
+  width: 100%;
+}
+
+.big {
+  text-transform: uppercase;
+}
+
+.text {
+  width: 90%;
+  margin: 0 auto;
+}
