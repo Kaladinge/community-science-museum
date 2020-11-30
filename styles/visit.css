@@ -1,5 +1,9 @@
 @import "imports/header-footer.css";
 
+h1 {
+  text-align: center;
+}
+
 .museum {
   width: 80%;
   border: 1px solid black;
