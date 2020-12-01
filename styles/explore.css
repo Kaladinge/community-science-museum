@@ -17,6 +17,30 @@
   margin: 0 auto;
 }
 
+/* Media Queries */
+/* Desktop */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  .sheet {
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .sheet1 {
+    background: white;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  }
+
+  .exhibition {
+    width: 90%;
+    margin: 20px 0;
+  }
+}
+
 @media only screen and (min-width: 1301px) {
   body {
     background-image: url("../images/light.jpg");
