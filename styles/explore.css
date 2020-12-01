@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.blur {
+  display: none;
+}
+
 .big {
   text-transform: uppercase;
 }
@@ -11,4 +15,60 @@
 .text {
   width: 90%;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 1301px) {
+  body {
+    background-image: url("../images/light.jpg");
+    background-attachment: fixed;
+  }
+
+  .sheet {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  .sheet1 {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-bottom: none;
+  }
+
+  .exploration {
+    display: none;
+  }
+
+  .blur {
+    display: block;
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .text {
+    position: absolute;
+    top: 30px;
+    right: 70px;
+    width: 55%;
+    color: white;
+    text-align: left;
+  }
+
+  .text2 {
+    color: black;
+    top: 90px;
+    width: 35%;
+  }
+
+  .text3 {
+    top: 10px;
+    left: 370px;
+    width: 22%;
+  }
 }

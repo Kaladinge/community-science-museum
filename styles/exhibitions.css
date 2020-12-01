@@ -1,7 +1,11 @@
 @import "imports/header-footer.css";
 
 .exhibition {
-  width: 100%;
+  width: 95%;
+}
+
+.sheet {
+  text-align: center;
 }
 
 .link {
@@ -39,10 +43,71 @@
   color: #2b2a7a;
 }
 
+/* Media Queries */
+/* Desktop */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  body {
+    background-image: url("../images/star2.jpg");
+    background-attachment: fixed;
+    margin: 0;
+  }
+
+  .sheet {
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .sheet1 {
+    background: white;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  }
+
+  .exhibition {
+    width: 90%;
+    margin: 20px 0;
+  }
+}
+
 @media only screen and (min-width: 1301px) {
+  body {
+    background-image: url("../images/star.jpg");
+    background-attachment: fixed;
+  }
+
   .sheet {
     background: white;
     width: 95%;
     margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .sheet1 {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-bottom: none;
+  }
+
+  .category {
+    bottom: 40px;
+    left: 20px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .exhibition {
+    width: 90%;
+    margin: 20px 0;
   }
 }
