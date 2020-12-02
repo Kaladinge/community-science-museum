@@ -1,5 +1,7 @@
 @import "imports/header-footer.css";
 
+@import "imports/footer.css";
+
 .exploration {
   width: 100%;
 }

@@ -1,5 +1,7 @@
 @import "imports/header-footer.css";
 
+@import "imports/footer.css";
+
 h1 {
   text-align: center;
 }
