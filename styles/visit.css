@@ -5,13 +5,15 @@ h1 {
 }
 
 .museum {
-  width: 80%;
+  width: 60%;
   border: 1px solid black;
 }
 
 .clearfix {
   border: 1px solid black;
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .text {
@@ -33,4 +35,142 @@ h1 {
 
 .hours {
   margin-top: 0;
+}
+
+.flexing {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+/* Desktop */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  .sheet {
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .sheet1 {
+    background: white;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  }
+
+  .clearfix {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .museum {
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+  }
+
+  .location {
+    margin-top: 40px;
+  }
+
+  .clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  .flexing {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .flex1,
+  .flex2,
+  .flex3 {
+    flex: 1;
+    text-align: left;
+    border: 1px solid black;
+  }
+
+  .flex1,
+  .flex2 {
+    margin-right: 10px;
+  }
+
+  .flex2,
+  .flex3 {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1301px) {
+  body {
+    background-image: url("../images/sky.jpg");
+    background-attachment: fixed;
+  }
+
+  .sheet {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .sheet1 {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-bottom: none;
+  }
+
+  .clearfix {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .museum {
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+  }
+
+  .location {
+    margin-top: 40px;
+  }
+
+  .clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  .flexing {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .flex1,
+  .flex2,
+  .flex3 {
+    flex: 1;
+    text-align: left;
+    border: 1px solid black;
+  }
+
+  .flex1,
+  .flex2 {
+    margin-right: 10px;
+  }
+
+  .flex2,
+  .flex3 {
+    margin-left: 10px;
+  }
 }
