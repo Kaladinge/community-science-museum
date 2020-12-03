@@ -1,15 +1,25 @@
+html {
+  font-size: 14px;
+  font-family: "Open Sans", verdana, sans-serif;
+}
+
 h1,
 h2,
 h3 {
   font-family: "Merriweather", verdana, sans-serif;
+  font-size: 25px;
 }
 
-body {
-  font-family: "Open Sans", verdana, sans-serif;
+h2,
+h3 {
+  font-size: 20px;
 }
 
 #logo {
   width: 150px;
+  margin-bottom: 22px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 #person {
@@ -47,6 +57,28 @@ nav ul {
 
 .nav5 {
   margin-bottom: 30px;
+}
+
+.sheet1 {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+}
+
+hr {
+  position: fixed;
+  width: 100%;
+  top: 90px;
+}
+
+.parts {
+  position: absolute;
+  top: 98px;
+}
+
+body {
+  margin: 0;
 }
 
 .mobile {
@@ -97,15 +129,29 @@ nav {
 
 /* Desktop */
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  html {
+    font-size: 1em;
+  }
+
   #hamburger-menu,
   .fas {
     display: none;
   }
 
   #logo {
-    margin-bottom: 39px;
-    padding-top: 10px;
-    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-top: 29px;
+    padding-left: 10px;
+  }
+
+  hr {
+    position: fixed;
+    top: 118px;
+  }
+
+  .parts {
+    position: absolute;
+    top: 126px;
   }
 
   nav {
@@ -161,6 +207,10 @@ nav {
 
 /* Desktop */
 @media only screen and (min-width: 1301px) {
+  html {
+    font-size: 1em;
+  }
+
   #hamburger-menu,
   .fas {
     display: none;
@@ -171,6 +221,20 @@ nav {
     margin-bottom: 22px;
     padding-top: 10px;
     padding-left: 10px;
+  }
+
+  .sheet1 {
+    left: 2.4%;
+  }
+
+  hr {
+    position: fixed;
+    top: 118px;
+  }
+
+  .parts {
+    position: absolute;
+    top: 126px;
   }
 
   nav {
@@ -195,7 +259,7 @@ nav {
 
   .navigation {
     margin: 0;
-    padding: 30px;
+    padding: 22px;
     width: 100px;
   }
 

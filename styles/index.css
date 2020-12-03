@@ -9,7 +9,9 @@
 }
 
 #pic1 {
-  width: 100%;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
 }
 
 #pic2 {
@@ -18,12 +20,12 @@
 
 .explore-together {
   position: relative;
-  border: 1px solid black;
 }
 
 .text {
   position: absolute;
-  bottom: 50px;
+  bottom: 1%;
+  left: 10%;
   color: white;
   max-width: 600px;
 }
@@ -31,6 +33,7 @@
 .exhibition {
   position: relative;
 }
+
 .text2-3 {
   width: 80%;
   margin: 0 auto;
@@ -39,7 +42,6 @@
 .pics {
   width: 40%;
   margin: 10px;
-  border: 1px solid grey;
 }
 
 .category {
@@ -53,7 +55,6 @@
 }
 
 .explore-and-exhibit {
-  border: 1px solid black;
   text-align: center;
 }
 
@@ -63,9 +64,45 @@
 }
 
 .pics2 {
-  width: 28%;
+  width: 24%;
   margin: 10px;
   border: 1px solid grey;
+}
+
+/* Media Queries */
+/* Desktop */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  .sheet {
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .sheet1 {
+    background: white;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  #pic1 {
+    display: none;
+  }
+
+  #pic2 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .flexing {
+    margin-top: 50px;
+  }
+
+  .pic3 {
+    margin-right: 79px;
+  }
 }
 
 @media only screen and (min-width: 1301px) {
@@ -112,13 +149,13 @@
 
   .flexing {
     flex-direction: row;
-    border: 1px solid black;
     width: 90%;
     margin: 30px auto 30px;
+    border: 1px solid red;
   }
 
   .explore-and-exhibit {
-    width: 200%;
+    text-align: center;
   }
 
   .category {
