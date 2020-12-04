@@ -121,6 +121,75 @@ nav {
   display: block;
 }
 
+.login-search {
+  position: absolute;
+  top: 33px;
+  right: 20px;
+  width: 90px;
+  height: 34px;
+  border: 1px solid black;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 34px;
+  border: 1px solid black;
+  z-index: 25;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  text-align: center;
+  top: 35px;
+  right: -50px;
+  z-index: 30;
+}
+
+.polygon {
+  width: 40px;
+  margin-bottom: -6px;
+  margin-left: 15px;
+}
+
+.polygon2 {
+  margin-left: 700px;
+}
+
+.a3,
+.a2 {
+  background-color: #f79420;
+  padding: 10px;
+  display: block;
+  margin: 0;
+}
+
+.a3 {
+  width: 800px;
+}
+
+.a2 {
+  color: white;
+  width: 200px;
+  text-decoration: none;
+  margin: 0;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 7px 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .drop-button {
+  color: #f79420;
+}
+
 /* Media queries */
 
 /* Tablet */
