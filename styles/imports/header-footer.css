@@ -115,6 +115,7 @@ nav {
   position: fixed;
   top: 40px;
   right: 40px;
+  z-index: 100;
 }
 
 #hamburger-menu:checked ~ nav {
