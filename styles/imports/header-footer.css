@@ -59,6 +59,10 @@ nav ul {
   margin-bottom: 30px;
 }
 
+.sheet {
+  margin-bottom: 30px;
+}
+
 .sheet1 {
   position: fixed;
   z-index: 10;
@@ -121,6 +125,8 @@ nav {
 #hamburger-menu:checked ~ nav {
   display: block;
 }
+
+/* dropdown */
 
 .login-search {
   position: absolute;
