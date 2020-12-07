@@ -7,11 +7,6 @@ h1,
 h2,
 h3 {
   font-family: "Merriweather", verdana, sans-serif;
-  font-size: 25px;
-}
-
-h2,
-h3 {
   font-size: 20px;
 }
 
@@ -209,6 +204,12 @@ input[type="text"] {
     font-size: 1em;
   }
 
+  h1,
+  h2,
+  h3 {
+    font-size: 25px;
+  }
+
   #hamburger-menu,
   .fas {
     display: none;
@@ -285,6 +286,12 @@ input[type="text"] {
 @media only screen and (min-width: 1301px) {
   html {
     font-size: 1em;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 25px;
   }
 
   #hamburger-menu,

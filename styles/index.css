@@ -2,10 +2,6 @@
 
 @import "imports/footer.css";
 
-.sheet {
-  margin-bottom: 30px;
-}
-
 .here {
   display: inline;
   text-decoration: underline;
@@ -13,7 +9,7 @@
 }
 
 #pic1 {
-  width: 90%;
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -87,6 +83,29 @@
 }
 
 /* Media Queries */
+
+/* Tablets */
+@media only screen and (min-width: 500px) and (max-width: 999px) {
+  #pic1 {
+    display: none;
+  }
+
+  #pic2 {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .text {
+    left: 4%;
+    top: 5%;
+    color: white;
+    max-width: 200px;
+    width: 55%;
+    text-align: left;
+  }
+}
+
 /* Desktop */
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
   .sheet {
@@ -111,6 +130,15 @@
     display: block;
     width: 90%;
     margin: 0 auto;
+  }
+
+  .text {
+    left: 100px;
+    top: 120px;
+    color: white;
+    max-width: 300px;
+    width: 55%;
+    text-align: left;
   }
 
   .flexing {
