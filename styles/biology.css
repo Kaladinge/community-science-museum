@@ -2,4 +2,10 @@
 
 @import "imports/footer.css";
 
-@import "imports/exhibition-categories.css";
+@import "imports/exhibitions-categories.css";
+
+@media only screen and (min-width: 1301px) {
+  body {
+    background-image: url("../images/biology2.jpg");
+  }
+}
