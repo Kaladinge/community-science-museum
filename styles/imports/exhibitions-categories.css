@@ -1,0 +1,120 @@
+.category-pic,
+.map {
+  width: 100%;
+}
+
+.big {
+  text-transform: uppercase;
+}
+
+.text {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+/* Desktop */
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  .sheet {
+    background: white;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .sheet1 {
+    background: white;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  }
+
+  .sheet2 {
+    position: relative;
+  }
+
+  .text1 {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    text-align: left;
+    width: 55%;
+  }
+
+  .category-pic {
+    width: 95%;
+    filter: brightness(60%);
+  }
+
+  .map {
+    width: 50%;
+    float: left;
+    margin-right: 70px;
+  }
+
+  .map-text {
+    margin-top: 100px;
+  }
+
+  .sheet::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+@media only screen and (min-width: 1301px) {
+  .category-pic {
+    display: none;
+  }
+
+  body {
+    background-image: url("../../images/evolution.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+  }
+
+  .sheet {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  .sheet1 {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-bottom: none;
+  }
+
+  .sheet2 {
+    margin-top: 400px;
+  }
+
+  .text {
+    text-align: left;
+  }
+
+  .map {
+    width: 50%;
+    float: left;
+    margin-right: 70px;
+    padding-bottom: 30px;
+  }
+
+  .map-text {
+    margin-top: 100px;
+  }
+
+  .sheet::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}

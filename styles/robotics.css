@@ -3,3 +3,7 @@
 @import "imports/footer.css";
 
 @import "imports/exhibitions-categories.css";
+
+body {
+  background-image: url("../images/robotics.jpg");
+}
