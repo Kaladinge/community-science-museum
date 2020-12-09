@@ -100,7 +100,12 @@
 
                 <div class="explore-together">
                     <img src="images/explore-pic.jpg" id="pic1" alt="navigational museum picture">
-                    <img src="images/explore-pic2.jpg" id="pic2" alt="navigational museum picture">
+                    <img src="images/explore-pic2.jpg" id="pic2" alt="navigational museum picture" usemap="#exhibition-map">
+
+                    <map name="exhibition-map" id="mappie">
+                        <area shape="rect" coords="515,165,670,240" alt="Robotics and AI exhibition" href="robotics.html">
+                        <area shape="poly" coords="1185,40,1210,70,1225,110,1210,250,1234,280,1230,360,1200,320,1155,320,1100,335,1100,295,1140,255,1135,110" alt="Cosmology exhibition" href="cosmology.html">
+                    </map>
 
                     <div class="text">
                         <h1>-Explore Together-</h1>
@@ -109,6 +114,8 @@
                             accessible to all.
                         </p>
                         <p>READ MORE>></p>
+
+                        <p id="clicking">Two of our exhibibitions can be found in this picture by clicking on the right items. Can you find them? <img src="images/arrow.png" id="arrow" alt="arrow"></p>
                     </div>
                 </div>
 

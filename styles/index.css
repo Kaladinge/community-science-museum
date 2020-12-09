@@ -2,10 +2,10 @@
 
 @import "imports/footer.css";
 
-.here {
+span a {
+  color: #f79420;
   display: inline;
   text-decoration: underline;
-  color: #f79420;
 }
 
 #pic1 {
@@ -28,6 +28,10 @@
   left: 10%;
   color: white;
   max-width: 600px;
+}
+
+#clicking {
+  display: none;
 }
 
 .exhibition {
@@ -104,6 +108,10 @@
     width: 55%;
     text-align: left;
   }
+
+  #clicking {
+    display: none;
+  }
 }
 
 /* Desktop */
@@ -128,7 +136,7 @@
 
   #pic2 {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -139,6 +147,10 @@
     max-width: 300px;
     width: 55%;
     text-align: left;
+  }
+
+  #clicking {
+    display: none;
   }
 
   .flexing {
@@ -179,17 +191,37 @@
 
   #pic2 {
     display: block;
-    width: 90%;
+    width: 1235px;
     margin: 0 auto;
   }
 
+  .explore-together {
+    margin: 0 auto;
+    width: 1230px;
+    border: 3px solid pink;
+  }
+
   .text {
-    left: 120px;
+    left: 5%;
     top: 170px;
     color: white;
     max-width: 450px;
     width: 55%;
     text-align: left;
+  }
+
+  #clicking {
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    color: #f79420;
+  }
+
+  #arrow {
+    width: 130px;
+    position: absolute;
+    top: 0;
+    right: -50px;
   }
 
   .flexing {
