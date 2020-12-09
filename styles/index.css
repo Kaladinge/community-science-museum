@@ -86,6 +86,21 @@ span a {
   margin-right: 7%;
 }
 
+/* dropdown, log in and search */
+
+.extra-text {
+  background-color: black;
+  width: 425px;
+  padding: 0 60px 5px 60px;
+  text-align: left;
+}
+
+.dropdown-content2 {
+  position: relative;
+  left: -62px;
+  top: 0;
+}
+
 /* Media Queries */
 
 /* Tablets */
@@ -213,7 +228,7 @@ span a {
   #clicking {
     display: inline-block;
     position: relative;
-    margin-top: 50px;
+    margin-top: 80px;
     color: #f79420;
   }
 
