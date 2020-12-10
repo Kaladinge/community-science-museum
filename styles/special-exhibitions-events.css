@@ -2,9 +2,14 @@
 
 @import "imports/footer.css";
 
+h1,
+h2 {
+  text-align: center;
+}
+
 .headlines {
   text-decoration: underline;
-  width: 90%;
+  width: 95%;
   margin: 10px auto;
   border: 1px solid black;
 }
@@ -12,7 +17,7 @@
 .news-pic {
   width: 150px;
   float: left;
-  margin-right: 20px;
+  margin-right: 30px;
   padding-bottom: 10px;
   border: 1px solid black;
 }
@@ -24,6 +29,9 @@
 .text {
   border: 1px solid black;
   margin-top: 0;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 .line {
@@ -32,7 +40,7 @@
 
 .clearfix {
   border: 1px solid black;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -54,6 +62,13 @@
 }
 
 /* Media Queries */
+/* Tablets and small desktops*/
+@media only screen and (min-width: 550px) and (max-width: 999px) {
+  .text {
+    width: 70%;
+  }
+}
+
 /* Desktop */
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
   .sheet {
@@ -72,12 +87,15 @@
   }
 
   .clearfix {
-    width: 70%;
     margin: 0 auto;
   }
 
   .news-pic {
     width: 250px;
+  }
+
+  .text {
+    width: 70%;
   }
 
   .headlines {
@@ -88,6 +106,7 @@
     display: block;
     text-decoration: underline;
     margin-top: 40px;
+    text-align: left;
   }
 }
 
@@ -115,7 +134,6 @@
   }
 
   .clearfix {
-    width: 70%;
     margin: 0 auto;
   }
 
@@ -131,5 +149,10 @@
     display: block;
     text-decoration: underline;
     margin-top: 100px;
+    text-align: left;
+  }
+
+  .text {
+    width: 70%;
   }
 }

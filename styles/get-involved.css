@@ -25,11 +25,16 @@ h3 {
 .button:hover {
   background: #f79420;
   color: white;
-  border: none;
+  border: 1px solid white;
 }
 
 .pic {
   width: 100%;
+}
+
+.section {
+  width: 95%;
+  margin: 0 auto;
 }
 
 /* Media Queries */
@@ -119,7 +124,6 @@ h3 {
 
   .section {
     border: 1px solid black;
-    width: 90%;
     text-align: left;
     margin: 0 auto;
   }

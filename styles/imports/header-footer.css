@@ -45,6 +45,7 @@ nav ul {
   text-align: center;
 }
 
+.active,
 .navigation:hover {
   background-color: #ee2b2f;
   color: white;
@@ -292,6 +293,10 @@ input[type="text"] {
   h2,
   h3 {
     font-size: 25px;
+  }
+
+  main {
+    font-size: 1.1em;
   }
 
   #hamburger-menu,
