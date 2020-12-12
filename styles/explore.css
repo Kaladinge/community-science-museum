@@ -8,6 +8,7 @@
 
 .blur {
   display: none;
+  padding-bottom: 25px;
 }
 
 .big {
@@ -69,7 +70,6 @@ h2 {
     background: white;
     width: 95%;
     margin: 0 auto;
-    border: 1px solid black;
     border-bottom: none;
   }
 
@@ -85,7 +85,7 @@ h2 {
 
   .text {
     position: absolute;
-    top: 2%;
+    top: 3%;
     right: 70px;
     width: 55%;
     color: white;

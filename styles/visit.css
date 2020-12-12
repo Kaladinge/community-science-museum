@@ -8,11 +8,10 @@ h1 {
 
 .museum {
   width: 50%;
-  border: 1px solid black;
 }
 
 .clearfix {
-  border: 1px solid black;
+  border: 1px solid white;
   text-align: center;
   width: 95%;
   margin: 0 auto;
@@ -40,7 +39,7 @@ h1 {
 }
 
 .flexing {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -94,7 +93,6 @@ h1 {
   .flex3 {
     flex: 1;
     text-align: left;
-    border: 1px solid black;
   }
 
   .flex1,
@@ -163,7 +161,6 @@ h1 {
   .flex3 {
     flex: 1;
     text-align: left;
-    border: 1px solid black;
   }
 
   .flex1,

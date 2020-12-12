@@ -11,6 +11,8 @@ h3 {
 }
 
 #logo {
+  position: relative;
+  z-index: 200;
   width: 150px;
   margin-bottom: 22px;
   padding-top: 10px;
@@ -57,6 +59,7 @@ nav ul {
 
 .sheet {
   margin-bottom: 50px;
+  padding-top: 10px;
 }
 
 .sheet1 {
@@ -92,6 +95,7 @@ body {
 
 .social-icons {
   text-align: center;
+  background-color: white;
 }
 
 .social {
@@ -104,7 +108,7 @@ nav {
   display: none;
   position: fixed;
   right: 0px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 #hamburger-menu {
@@ -130,7 +134,6 @@ nav {
   right: 20px;
   width: 90px;
   height: 34px;
-  border: 1px solid black;
 }
 
 .dropdown {
@@ -138,7 +141,6 @@ nav {
   display: inline-block;
   width: 40px;
   height: 34px;
-  border: 1px solid black;
   z-index: 25;
 }
 
@@ -194,10 +196,6 @@ input[type="text"] {
 }
 
 /* Media queries */
-
-/* Tablet */
-@media only screen and (min-width: 550px) and (max-width: 999px) {
-}
 
 /* Desktop */
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
@@ -318,11 +316,12 @@ input[type="text"] {
   hr {
     position: fixed;
     top: 118px;
+    width: 95%;
   }
 
   .parts {
     position: absolute;
-    top: 126px;
+    top: 112px;
   }
 
   nav {
@@ -368,7 +367,6 @@ input[type="text"] {
   }
 
   .sheet {
-    border: 1px solid black;
     display: fixed;
   }
 }

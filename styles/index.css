@@ -20,7 +20,6 @@ span a {
 
 .explore-together {
   position: relative;
-  border: 1px solid black;
 }
 
 .text {
@@ -62,7 +61,6 @@ span a {
 .explore-and-exhibit {
   width: 90%;
   text-align: center;
-  border: 1px solid black;
   margin: 0 auto;
 }
 
@@ -197,7 +195,6 @@ span a {
     background: white;
     width: 95%;
     margin: 0 auto;
-    border: 1px solid black;
     border-bottom: none;
   }
 
@@ -214,7 +211,6 @@ span a {
   .explore-together {
     margin: 0 auto;
     width: 1230px;
-    border: 3px solid pink;
   }
 
   .text {
@@ -244,7 +240,6 @@ span a {
     flex-direction: row;
     width: 90%;
     margin: 30px auto 30px;
-    border: 1px solid red;
   }
 
   .explore-and-exhibit {
