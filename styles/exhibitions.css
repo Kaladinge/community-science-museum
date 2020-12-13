@@ -63,6 +63,10 @@
     width: 95%;
     padding-bottom: 20px;
   }
+
+  .category {
+    left: -5px;
+  }
 }
 
 /* Desktop */
@@ -89,7 +93,7 @@
 
   .category {
     bottom: 40px;
-    left: 20px;
+    left: -10px;
     width: 200px;
     padding: 10px;
   }
@@ -125,7 +129,7 @@
 
   .category {
     bottom: 40px;
-    left: 20px;
+    left: -10px;
     width: 300px;
     padding: 10px;
   }
