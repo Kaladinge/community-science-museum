@@ -52,7 +52,7 @@
 
 /* Tablets to small desktop */
 @media only screen and (min-width: 550px) and (max-width: 999px) {
-  .sheet {
+  .flexing {
     display: flex;
     text-align: center;
     padding-bottom: 0;
@@ -79,7 +79,6 @@
 
   .sheet {
     background: white;
-    display: flex;
     margin-bottom: 50px;
     text-align: center;
     padding-bottom: 0;
@@ -89,6 +88,10 @@
     background: white;
     margin: 0 auto;
     padding-bottom: 10px;
+  }
+
+  .flexing {
+    display: flex;
   }
 
   .category {
@@ -114,10 +117,13 @@
     background: white;
     width: 95%;
     margin: 0 auto;
-    display: flex;
     margin-bottom: 50px;
     text-align: center;
     padding-bottom: 0;
+  }
+
+  .flexing {
+    display: flex;
   }
 
   .sheet1 {
