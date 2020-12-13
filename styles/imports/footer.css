@@ -50,6 +50,14 @@ footer {
   flex: 1;
 }
 
+/* Media queries */
+/* Tablet and small desktop */
+@media only screen and (min-width: 500px) and (max-width: 1300px) {
+  footer {
+    margin-top: 50px;
+  }
+}
+
 /* Desktop */
 @media only screen and (min-width: 1301px) {
   .column {

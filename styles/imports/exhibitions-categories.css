@@ -16,20 +16,6 @@
 
 /* Tablet and small desktop */
 @media only screen and (min-width: 550px) and (max-width: 1300px) {
-  .sheet {
-    background: white;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-bottom: 0;
-  }
-
-  .sheet1 {
-    background: white;
-    margin: 0 auto;
-    border-bottom: 1px solid black;
-    margin-bottom: 0px;
-  }
-
   .sheet2 {
     position: relative;
   }
@@ -77,21 +63,7 @@
   }
 
   .sheet {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-bottom: 0;
     position: relative;
-  }
-
-  .sheet1 {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    border: 1px solid black;
-    border-bottom: none;
   }
 
   .sheet2 {

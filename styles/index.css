@@ -135,6 +135,7 @@ span a {
 
   .category {
     width: 170px;
+    padding: 5px;
   }
 
   .category2 {
@@ -143,12 +144,12 @@ span a {
 
   .extra-text {
     width: 425px;
-    padding: 5px 20px 5px 60px;
+    padding: 5px 20px 5px 20px;
   }
 
   .dropdown-content2 {
     position: relative;
-    left: -62px;
+    left: -20px;
   }
 }
 
@@ -193,6 +194,7 @@ span a {
 
   .category {
     width: 200px;
+    padding: 5px;
   }
 
   .category2 {
@@ -213,7 +215,6 @@ span a {
   }
 
   .dropdown-content2 {
-    position: relative;
     left: -62px;
   }
 }
@@ -222,22 +223,6 @@ span a {
   body {
     background-image: url("../images/home-back.jpg");
     background-attachment: fixed;
-  }
-
-  .sheet {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-bottom: 0;
-  }
-
-  .sheet1 {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    border-bottom: none;
   }
 
   #pic1 {
@@ -300,7 +285,7 @@ span a {
   }
 
   .category {
-    bottom: 30px;
+    bottom: 15px;
     left: 0px;
     width: 220px;
     padding: 5px;
@@ -308,6 +293,7 @@ span a {
 
   .category2 {
     width: 150px;
+    bottom: 18px;
   }
 
   .last {
@@ -320,8 +306,6 @@ span a {
   }
 
   .dropdown-content2 {
-    position: relative;
     left: -62px;
-    top: 0;
   }
 }

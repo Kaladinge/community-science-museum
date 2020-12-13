@@ -29,21 +29,6 @@ h2 {
 /* Media Queries */
 /* Desktop */
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
-  .sheet {
-    background: white;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-bottom: 0;
-  }
-
-  .sheet1 {
-    background: white;
-    margin: 0 auto;
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-  }
-
   .exhibition {
     width: 90%;
     margin: 20px 0;
@@ -57,20 +42,7 @@ h2 {
   }
 
   .sheet {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-bottom: 0;
     position: relative;
-  }
-
-  .sheet1 {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    border-bottom: none;
   }
 
   .exploration {

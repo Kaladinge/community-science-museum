@@ -10,6 +10,11 @@ h1 {
   width: 50%;
 }
 
+.admission,
+.access {
+  margin-top: 50px;
+}
+
 .clearfix {
   border: 1px solid white;
   text-align: center;
@@ -46,30 +51,19 @@ h1 {
 /* Media Queries */
 /* Desktop */
 @media only screen and (min-width: 720px) and (max-width: 1300px) {
-  .sheet {
-    background: white;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-bottom: 0;
-  }
-
-  .sheet1 {
-    background: white;
-    margin: 0 auto;
-    padding-bottom: 10px;
-  }
-
   .clearfix {
     width: 95%;
     margin: 0 auto;
   }
 
   .museum {
-    width: 60%;
-    min-width: px;
     float: left;
     margin-right: 20px;
+  }
+
+  .admission,
+  .access {
+    margin-top: 30px;
   }
 
   .location {
@@ -110,23 +104,6 @@ h1 {
   body {
     background-image: url("../images/sky.jpg");
     background-attachment: fixed;
-  }
-
-  .sheet {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-bottom: 0;
-  }
-
-  .sheet1 {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    border: 1px solid black;
-    border-bottom: none;
   }
 
   .clearfix {

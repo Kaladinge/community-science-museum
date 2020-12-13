@@ -67,20 +67,6 @@ h2 {
 
 /* Desktop */
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
-  .sheet {
-    background: white;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-bottom: 0;
-  }
-
-  .sheet1 {
-    background: white;
-    margin: 0 auto;
-    padding-bottom: 10px;
-  }
-
   .clearfix {
     margin: 0 auto;
   }
@@ -109,22 +95,6 @@ h2 {
   body {
     background-image: url("../images/news.jpg");
     background-attachment: fixed;
-  }
-
-  .sheet {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-bottom: 0;
-  }
-
-  .sheet1 {
-    background: white;
-    width: 95%;
-    margin: 0 auto;
-    border-bottom: none;
   }
 
   .clearfix {

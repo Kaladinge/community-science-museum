@@ -213,6 +213,20 @@ input[type="text"] {
     display: none;
   }
 
+  .sheet1 {
+    background: white;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .sheet {
+    background: white;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
+    margin: 0 auto;
+  }
+
   #logo {
     margin-bottom: 20px;
     padding-top: 29px;
@@ -310,6 +324,19 @@ input[type="text"] {
 
   .sheet1 {
     left: 2.4%;
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: none;
+  }
+
+  .sheet {
+    background: white;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 0;
   }
 
   hr {
@@ -363,10 +390,5 @@ input[type="text"] {
     width: 34px;
     right: 110px;
     top: 34px;
-  }
-
-  .sheet {
-    display: fixed;
-    margin-bottom: 50px;
   }
 }
