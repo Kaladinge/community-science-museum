@@ -53,14 +53,18 @@ span a {
   background-color: #f79420;
   border: 1px solid #707070;
   color: white;
-  width: 85%;
+  width: 140px;
   left: 0px;
   bottom: 20px;
   text-align: center;
 }
 
+.category2 {
+  width: 110px;
+}
+
 .explore-and-exhibit {
-  width: 90%;
+  width: 85%;
   text-align: center;
   margin: 0 auto;
 }
