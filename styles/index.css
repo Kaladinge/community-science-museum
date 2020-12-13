@@ -89,14 +89,14 @@ span a {
 
 .extra-text {
   background-color: black;
-  width: 425px;
-  padding: 5px 60px 5px 60px;
+  width: 350px;
+  padding: 5px 10px 5px 10px;
   text-align: left;
 }
 
 .dropdown-content2 {
   position: relative;
-  left: -62px;
+  left: 0px;
   top: 0;
 }
 
@@ -267,5 +267,16 @@ span a {
 
   .last {
     margin-bottom: 0;
+  }
+
+  .extra-text {
+    width: 425px;
+    padding: 5px 60px 5px 60px;
+  }
+
+  .dropdown-content2 {
+    position: relative;
+    left: -62px;
+    top: 0;
   }
 }
