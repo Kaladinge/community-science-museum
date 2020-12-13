@@ -44,8 +44,8 @@ span a {
 }
 
 .pics {
-  width: 40%;
-  margin: 10px;
+  width: 35%;
+  margin: 5px;
 }
 
 .category {
@@ -53,7 +53,8 @@ span a {
   background-color: #f79420;
   border: 1px solid #707070;
   color: white;
-  width: 70%;
+  width: 85%;
+  left: 0px;
   bottom: 20px;
   text-align: center;
 }
@@ -96,7 +97,7 @@ span a {
 
 .dropdown-content2 {
   position: relative;
-  left: -58px;
+  left: -28px;
   top: 0;
 }
 
@@ -125,6 +126,16 @@ span a {
 
   #clicking {
     display: none;
+  }
+
+  .extra-text {
+    width: 425px;
+    padding: 5px 20px 5px 60px;
+  }
+
+  .dropdown-content2 {
+    position: relative;
+    left: -62px;
   }
 }
 
@@ -173,6 +184,16 @@ span a {
 
   .pic3 {
     margin-right: 79px;
+  }
+
+  .extra-text {
+    width: 425px;
+    padding: 5px 60px 5px 60px;
+  }
+
+  .dropdown-content2 {
+    position: relative;
+    left: -62px;
   }
 }
 
