@@ -58,7 +58,6 @@ nav ul {
 }
 
 .sheet {
-  margin-bottom: 50px;
   padding-top: 10px;
 }
 
@@ -368,5 +367,6 @@ input[type="text"] {
 
   .sheet {
     display: fixed;
+    margin-bottom: 50px;
   }
 }

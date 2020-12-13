@@ -57,14 +57,15 @@ span a {
   left: 0px;
   bottom: 20px;
   text-align: center;
+  border: 1px solid black;
 }
 
 .category2 {
-  width: 100px;
+  width: 90px;
 }
 
 .explore-and-exhibit {
-  width: 85%;
+  width: 80%;
   text-align: center;
   margin: 0 auto;
 }
@@ -132,6 +133,14 @@ span a {
     display: none;
   }
 
+  .category {
+    width: 170px;
+  }
+
+  .category2 {
+    width: 130px;
+  }
+
   .extra-text {
     width: 425px;
     padding: 5px 20px 5px 60px;
@@ -180,6 +189,14 @@ span a {
 
   #clicking {
     display: none;
+  }
+
+  .category {
+    width: 200px;
+  }
+
+  .category2 {
+    width: 180px;
   }
 
   .flexing {
@@ -285,9 +302,12 @@ span a {
   .category {
     bottom: 30px;
     left: 0px;
-    width: 70%;
+    width: 220px;
     padding: 5px;
-    border: 1px solid black;
+  }
+
+  .category2 {
+    width: 150px;
   }
 
   .last {
