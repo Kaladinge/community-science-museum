@@ -3,6 +3,11 @@
   padding-right: 10px;
 }
 
+.form {
+  color: #f79420;
+  text-decoration: underline;
+}
+
 .column {
   line-height: 1;
   min-width: 250px;
@@ -30,6 +35,12 @@
   padding: 10px;
   width: 90px;
   text-align: center;
+}
+
+#subscribe:hover {
+  color: #f79420;
+  background-color: white;
+  border: 1px solid #707070;
 }
 
 footer {
