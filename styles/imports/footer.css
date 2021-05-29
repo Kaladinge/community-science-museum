@@ -23,11 +23,6 @@
   font-weight: bold;
 }
 
-#name,
-#mail {
-  margin-bottom: 20px;
-}
-
 #subscribe {
   background-color: #f79420;
   border: 1px solid #707070;

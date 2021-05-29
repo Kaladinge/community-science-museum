@@ -93,7 +93,7 @@
     
     <div class="sheet">
         <h1>Special Events & Exhibitions</h1>
-        <h2>News</h2>
+        
 
         <h3 class="headlines">Visiting Professor of Aeronautics</h3>
         <div class="clearfix">
@@ -159,18 +159,24 @@
         <div class="column column3">
             <h3><img src="images/orange-block.png" class="orange">Newsletter</h3>
             <p class="bold">Yes, Please!</p>
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-            </div>
-            <div>
-                <label for="mail"></label>E-mail:</label>
-                <input type="text" id="mail" name="mail">
-            </div>
-            <div id="subscribe">Subscribe</div>
+            <form id="newsForm">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Min. 5 characters">
+                    <div class="form-error" id="nameError">Please enter your name</div>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" placeholder="e.g my-name@museum.com">
+                    <div class="form-error" id="emailError">Please enter a valid email address</div>
+                </div>
+                <div id="button-container">
+                <button id="subscribe">Subscribe</button>
+                </div>
+            </form>
         </div>
     </footer>
 </div>
-    
+<script src="js/newsletter.js"></script>
 </body>
 </html>
