@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Open Sans", verdana, sans-serif;
 }
 
@@ -198,10 +198,6 @@ input[type="text"] {
 
 /* Desktop */
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
-  html {
-    font-size: 1em;
-  }
-
   h1,
   h2,
   h3 {
@@ -248,7 +244,6 @@ input[type="text"] {
     top: 0;
     right: 110px;
     left: 120px;
-    font-size: 0.8em;
     border: none;
   }
 
@@ -265,7 +260,7 @@ input[type="text"] {
 
   .navigation {
     margin: 0;
-    padding: 30px;
+    padding: 25px 20px 15px 20px;
     width: 100px;
   }
 
@@ -274,7 +269,7 @@ input[type="text"] {
   }
 
   .navigation {
-    width: 80px;
+    width: 90px;
   }
 
   #search {
@@ -297,17 +292,13 @@ input[type="text"] {
 /* Desktop */
 @media only screen and (min-width: 1301px) {
   html {
-    font-size: 1em;
+    font-size: 16px;
   }
 
   h1,
   h2,
   h3 {
     font-size: 25px;
-  }
-
-  main {
-    font-size: 1.1em;
   }
 
   #hamburger-menu,
