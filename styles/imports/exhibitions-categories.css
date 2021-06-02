@@ -8,8 +8,30 @@
 }
 
 .text {
-  width: 90%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
+}
+
+.category-pic {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.text1 {
+  color: white;
+  bottom: 0;
+  padding: 10px;
+  max-width: 700px;
+  background-color: rgba(0, 0, 0, 0.468);
+}
+
+h1 {
+  text-align: center;
+  color: white;
 }
 
 /* Media Queries */
@@ -20,18 +42,16 @@
     position: relative;
   }
 
-  .text1 {
-    color: white;
-    position: absolute;
-    bottom: 10px;
-    left: 50px;
-    text-align: left;
-    width: 85%;
-  }
-
   .category-pic {
+    height: 400px;
+    position: relative;
+  }
+  .text1 {
+    position: absolute;
+    transform: translate(-50%);
+    height: 100%;
+    left: 50%;
     width: 100%;
-    filter: brightness(60%);
   }
 
   .map {
@@ -52,22 +72,26 @@
 }
 
 @media only screen and (min-width: 1301px) {
-  .category-pic {
-    display: none;
-  }
-
   body {
-    background-image: url("../../images/evolution.jpg");
     background-size: contain;
     background-attachment: fixed;
+    background-color: rgb(57, 57, 57);
   }
 
   .sheet {
     position: relative;
   }
 
-  .sheet2 {
-    margin-top: 400px;
+  .category-pic {
+    height: 600px;
+    position: relative;
+  }
+
+  .text1 {
+    position: absolute;
+    transform: translate(-50%);
+    height: 40%;
+    left: 50%;
   }
 
   .text {

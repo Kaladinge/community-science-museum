@@ -4,9 +4,13 @@
 
 @import "imports/exhibitions-categories.css";
 
+.category-pic {
+  background-image: url("../images/marine-biology.jpg");
+  background-position: bottom;
+}
+
 @media only screen and (min-width: 1301px) {
-  body {
-    background-image: url("../images/marine-biology.jpg");
-    background-size: 100% 65%;
+  .text1 {
+    height: 55%;
   }
 }

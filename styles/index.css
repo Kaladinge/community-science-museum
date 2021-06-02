@@ -219,8 +219,7 @@ span a {
 
 @media only screen and (min-width: 1301px) {
   body {
-    background-image: url("../images/home-back.jpg");
-    background-attachment: fixed;
+    background-color: rgb(57, 57, 57);
   }
 
   #pic1 {
