@@ -20,13 +20,18 @@ h3 {
 }
 
 #person {
-  display: none;
+  display: inline-block;
+  position: fixed;
+  width: 34px;
+  right: 120px;
+  top: 34px;
 }
 
 #search {
   position: fixed;
-  top: 38px;
-  right: 80px;
+  top: 33px;
+  right: 70px;
+  padding: 5px;
 }
 
 nav ul {
@@ -137,7 +142,7 @@ nav {
 
 .dropdown {
   position: absolute;
-  display: inline-block;
+  right: 100px;
   width: 40px;
   height: 34px;
   z-index: 25;
@@ -148,30 +153,36 @@ nav {
   position: absolute;
   text-align: center;
   top: 35px;
-  right: -50px;
+  right: -120px;
   z-index: 30;
+  width: 300px;
+}
+
+.content2 {
+  width: 200px;
 }
 
 .polygon {
   width: 40px;
   margin-bottom: -6px;
-  margin-left: 15px;
+  margin-right: 110px;
 }
 
 .polygon2 {
-  margin-left: 700px;
+  text-align: right;
+  margin-left: 160px;
 }
 
 .a3,
 .a2 {
   background-color: #f79420;
-  padding: 10px;
+  padding: 10px 0;
   display: block;
   margin: 0;
 }
 
 .a3 {
-  width: 800px;
+  width: 100%;
 }
 
 .a2 {
@@ -221,6 +232,27 @@ input[type="text"] {
     text-align: center;
     padding-bottom: 0;
     margin: 0 auto;
+  }
+
+  .dropdown {
+    right: 60px;
+  }
+
+  .dropdown-content {
+    right: -60px;
+    width: 900px;
+  }
+
+  .content2 {
+    width: 200px;
+  }
+
+  .polygon {
+    margin-left: 80px;
+  }
+
+  .polygon2 {
+    margin-left: 830px;
   }
 
   #logo {
@@ -273,7 +305,7 @@ input[type="text"] {
   }
 
   #search {
-    right: 40px;
+    right: 30px;
   }
 
   #person {
@@ -330,6 +362,27 @@ input[type="text"] {
     padding-bottom: 0;
   }
 
+  .dropdown {
+    right: 50px;
+  }
+
+  .dropdown-content {
+    right: -60px;
+    width: 1100px;
+  }
+
+  .content2 {
+    width: 200px;
+  }
+
+  .polygon {
+    margin-left: 80px;
+  }
+
+  .polygon2 {
+    margin-left: 1020px;
+  }
+
   hr {
     position: fixed;
     top: 118px;
@@ -372,7 +425,7 @@ input[type="text"] {
   }
 
   #search {
-    right: 70px;
+    right: 60px;
   }
 
   #person {
