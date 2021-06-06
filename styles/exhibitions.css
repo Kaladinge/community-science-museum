@@ -6,6 +6,11 @@
 
 .exhibition {
   width: 100%;
+  transition-duration: 0.3s;
+}
+
+.exhibition:hover {
+  opacity: 0.5;
 }
 
 .sheet {

@@ -20,6 +20,16 @@ span a {
   display: none;
 }
 
+.pics,
+.pics2 {
+  transition-duration: 0.3s;
+}
+
+.pics:hover,
+.pics2:hover {
+  opacity: 0.5;
+}
+
 .explore-together {
   position: relative;
 }
