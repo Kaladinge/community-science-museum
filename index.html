@@ -31,9 +31,9 @@
                 <div class="drop-button"><img src="images/search-24px.svg" id="search" alt="search icon"></div>
 
                 <div class="dropdown-content">
-                    <a href="#" class="a1"><img src="images/polygon.png" class="polygon polygon2"></a>
-                    <a href="#" class="a3"><input type="text" id="search-bar" name="search"
-                            placeholder="What can we help you with?"></a>
+                    <div class="a1"><img src="images/polygon.png" class="polygon polygon2" alt="orange polygon"></div>
+                    <div class="a3"><input type="text" id="search-bar" name="search"
+                            placeholder="What can we help you with?"><button type="submit" id="search-button"><img src="images/search-24px.svg" id="search2" alt="search icon"></button></div>
                 </div>
             </div>
 
@@ -42,7 +42,7 @@
                 <div class="drop-button"><img src="images/person-icon.png" id="person" alt="log in icon"></div>
 
                 <div class="dropdown-content content2">
-                    <a href="#" class="a1"><img src="images/polygon.png" class="polygon"></a>
+                    <div class="a1"><img src="images/polygon.png" class="polygon" alt="orange polygon"></div>
                     <a href="#" class="a2">Log In | Register</a>
                 </div>
             </div>
@@ -65,16 +65,21 @@
                 <li>
                     <a href="get-involved.html" class="navigation nav5">get involved</a>
                 </li>
-               
+                <li>
+                    <p class="mobile navigation">register</p>
+                </li>
+                <li>
+                    <p class=" mobile navigation">log in</p>
+                </li>
 
             </ul>
 
 
 
             <div class="social-icons">
-                <img src="images/facebook.png" class="social">
-                <img src="images/youtube.png" class="social">
-                <img src="images/instagram.png" class="social">
+                <img src="images/facebook.png" class="social" alt="facebook icon">
+                <img src="images/youtube.png" class="social" alt="youtube icon">
+                <img src="images/instagram.png" class="social" alt="instagram icon">
             </div>
 
 
@@ -107,22 +112,6 @@
                         <p id="paragraph1">Come join us at the Community Science Museum where we’re committed to making science
                             accessible to all.
                         </p>
-                        
-                        <!--<div class="dropdown">
-                            <div class="drop-button">READ MORE>></div>
-                            <div class="dropdown-content dropdown-content2">
-                                <div class="extra-text">
-                                    <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to
-                                    exploring everything from galaxies far away to the very building blocks of life itself.</p>
-                                    <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even
-                                    ignite a lifelong passion to continue the exploration of the world around us.</p>
-                                    <p>We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have
-                                    over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for
-                                    you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to
-                                    life at night when everyone’s gone home).</p>
-                                </div>
-                            </div>
-                        </div>-->
 
                         <p id="clicking">Two of our exhibibitions can be found in this picture by clicking on the right items. Can you find them? <img src="images/arrow.png" id="arrow" alt="arrow"></p>
                     </div>
@@ -140,7 +129,7 @@
                     <div class="explore-and-exhibit">
 
                         <a href="evolution.html" class="exhibition ex1">
-                            <img src="images/evolution.jpg" alt="evolution exhibit" class="pics pic3">
+                            <img src="images/evolution.jpg" alt="Evolution exhibit" class="pics pic3">
                             <div class="category">Evolution</div>
                         </a>
 
@@ -185,7 +174,7 @@
 
         <footer class="last">
             <div class="column column1">
-                <h3><img src="images/orange-block.png" class="orange">Contact Us</h3>
+                <h3><img src="images/orange-block.png" class="orange" alt="orange block">Contact Us</h3>
                 <p>Community Science Museum</p>
                 <p>Scientific Science Street 42</p>
                 <p class="end-line">XXXX Oslo</p>
@@ -202,7 +191,7 @@
             </div>
 
             <div class="column column2">
-                <h3><img src="images/orange-block.png" class="orange">Info</h3>
+                <h3><img src="images/orange-block.png" class="orange" alt="orange block">Info</h3>
                 <p class="end-line ">Logo and profile</p>
                 <p class="end-line">About the Museum</p>
                 <p class="end-line">Host an event</p>
@@ -210,21 +199,25 @@
             </div>
 
             <div class="column column3">
-                <h3><img src="images/orange-block.png" class="orange">Newsletter</h3>
+                <h3><img src="images/orange-block.png" class="orange" alt="orange block">Newsletter</h3>
                 <p class="bold">Yes, Please!</p>
-                <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
-                </div>
-                <div>
-                    <label for="mail"></label>E-mail:</label>
-                    <input type="text" id="mail" name="mail">
-                </div>
-                <div id="subscribe">Subscribe</div>
+                <form id="newsForm">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Min. 5 characters">
+                        <div class="form-error" id="nameError">Please enter your name</div>
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" name="email" placeholder="e.g my-name@museum.com">
+                        <div class="form-error" id="emailError">Please enter a valid email address</div>
+                    </div>
+                    <div id="button-container">
+                        <button id="subscribe">Subscribe</button>
+                    </div>
+                </form>
             </div>
-        </footer>
-    </div>
-<script src="js/search.js"></script>
+<script src="js/newsletter.js"></script>
 </body>
 
 </html>

@@ -24,27 +24,27 @@
                 alt="Community Science Museum Logo" /></a>
 
         <div class="login-search">
-
+        
             <div class="dropdown">
                 <div class="drop-button"><img src="images/search-24px.svg" id="search" alt="search icon"></div>
-
+        
                 <div class="dropdown-content">
-                    <a href="#" class="a1"><img src="images/polygon.png" class="polygon polygon2"></a>
-                    <a href="#" class="a3"><input type="text" id="search-bar" name="search"
-                            placeholder="What can we help you with?"></a>
+                    <div class="a1"><img src="images/polygon.png" class="polygon polygon2" alt="orange polygon"></div>
+                    <div class="a3"><input type="text" id="search-bar" name="search"
+                            placeholder="What can we help you with?"><button type="submit" id="search-button"><img
+                                src="images/search-24px.svg" id="search2" alt="search icon"></button></div>
                 </div>
             </div>
-
-
+        
+        
             <div class="dropdown">
                 <div class="drop-button"><img src="images/person-icon.png" id="person" alt="log in icon"></div>
-
-                <div class="dropdown-content">
-                    <a href="#" class="a1"><img src="images/polygon.png" class="polygon"></a>
+        
+                <div class="dropdown-content content2">
+                    <div class="a1"><img src="images/polygon.png" class="polygon" alt="orange polygon"></div>
                     <a href="#" class="a2">Log In | Register</a>
                 </div>
             </div>
-
         </div>
         <nav>
             <ul>
@@ -73,9 +73,9 @@
             </ul>
 
             <div class="social-icons">
-                <img src="images/facebook.png" class="social">
-                <img src="images/youtube.png" class="social">
-                <img src="images/instagram.png" class="social">
+                <img src="images/facebook.png" class="social" alt="facebook icon">
+                <img src="images/youtube.png" class="social" alt="youtube icon">
+                <img src="images/instagram.png" class="social" alt="instagram icon">
             </div>
 
 
@@ -114,7 +114,7 @@
 
             <div class="sheet" id="teachers-explore">
                 <img src="images/explore-teacher2.jpg" alt="teachers' exploration picture" class="exploration teachers">
-                <img src="images/explore-teacher-blur.jpg" alt="kids' exploration picture" class="blur">
+                <img src="images/explore-teacher-blur.jpg" alt="teachers' exploration picture" class="blur">
                 <div class="text text2">
                     <h2><span class="big">-explore</span> for teachers-</h2>
                     <p>As a community-driven museum, we want to work with schools to create places of learning and
@@ -130,8 +130,8 @@
 
 
             <div class="sheet" id="researchers-explore">
-                <img src="images/explore-researcher2.jpg" alt="kids' exploration picture" class="exploration kids">
-                <img src="images/explore-researcher-blur.jpg" alt="kids' exploration picture" class="blur">
+                <img src="images/explore-researcher2.jpg" alt="researchers' exploration picture" class="exploration kids">
+                <img src="images/explore-researcher-blur.jpg" alt="researchers' exploration picture" class="blur">
                 <div class="text text3">
                     <h2><span class="big">-explore</span> for researchers-</h2>
                     <p>Are you looking to get involved with our team of researchers and academics? Our museum offers
@@ -146,7 +146,7 @@
 
         <footer class="last">
             <div class="column column1">
-                <h3><img src="images/orange-block.png" class="orange">Contact Us</h3>
+                <h3><img src="images/orange-block.png" class="orange" alt="orange block">Contact Us</h3>
                 <p>Community Science Museum</p>
                 <p>Scientific Science Street 42</p>
                 <p class="end-line">XXXX Oslo</p>
@@ -163,7 +163,7 @@
             </div>
 
             <div class="column column2">
-                <h3><img src="images/orange-block.png" class="orange">Info</h3>
+                <h3><img src="images/orange-block.png" class="orange" alt="orange block">Info</h3>
                 <p class="end-line ">Logo and profile</p>
                 <p class="end-line">About the Museum</p>
                 <p class="end-line">Host an event</p>
@@ -171,20 +171,27 @@
             </div>
 
             <div class="column column3">
-                <h3><img src="images/orange-block.png" class="orange">Newsletter</h3>
+                <h3><img src="images/orange-block.png" class="orange" alt="orange block">Newsletter</h3>
                 <p class="bold">Yes, Please!</p>
-                <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
-                </div>
-                <div>
-                    <label for="mail"></label>E-mail:</label>
-                    <input type="text" id="mail" name="mail">
-                </div>
-                <div id="subscribe">Subscribe</div>
+                <form id="newsForm">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Min. 5 characters">
+                        <div class="form-error" id="nameError">Please enter your name</div>
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" name="email" placeholder="e.g my-name@museum.com">
+                        <div class="form-error" id="emailError">Please enter a valid email address</div>
+                    </div>
+                    <div id="button-container">
+                        <button id="subscribe">Subscribe</button>
+                    </div>
+                </form>
             </div>
         </footer>
     </div>
+    <script src="js/newsletter.js"></script>
 </body>
 
 </html>

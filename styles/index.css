@@ -2,6 +2,8 @@
 
 @import "imports/footer.css";
 
+@import "imports/newsletter.css";
+
 span a {
   color: #0b16b6;
   display: inline;
@@ -60,17 +62,16 @@ h1,
 .category {
   position: absolute;
   background-color: #f79420;
-  border: 1px solid black;
   color: white;
   width: 170px;
   left: 0px;
-  top: -40px;
+  top: -35px;
   height: 25px;
   text-align: center;
 }
 
 .category2 {
-  width: 100px;
+  width: 93px;
 }
 
 .explore-and-exhibit {
@@ -103,12 +104,6 @@ h1,
   width: 330px;
   padding: 5px 10px 5px 10px;
   text-align: left;
-}
-
-.dropdown-content2 {
-  position: relative;
-  left: -18px;
-  top: 0;
 }
 
 /* Media Queries */
@@ -155,11 +150,6 @@ h1,
   .extra-text {
     width: 425px;
     padding: 5px 20px 5px 20px;
-  }
-
-  .dropdown-content2 {
-    position: relative;
-    left: -20px;
   }
 }
 
@@ -221,10 +211,6 @@ h1,
   .extra-text {
     width: 425px;
     padding: 5px 60px 5px 60px;
-  }
-
-  .dropdown-content2 {
-    left: -62px;
   }
 }
 
@@ -315,9 +301,5 @@ h1,
   .extra-text {
     width: 425px;
     padding: 5px 60px 5px 60px;
-  }
-
-  .dropdown-content2 {
-    left: -62px;
   }
 }

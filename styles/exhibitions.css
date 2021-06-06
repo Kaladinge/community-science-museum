@@ -2,6 +2,8 @@
 
 @import "imports/footer.css";
 
+@import "imports/newsletter.css";
+
 .exhibition {
   width: 100%;
 }
@@ -14,12 +16,16 @@
 .link {
   position: relative;
 }
+.paragraph {
+  width: 90%;
+  margin: 10px auto;
+  text-align: left;
+}
 
 .category {
   position: absolute;
   background-color: #f79420;
   color: white;
-  border: 1px solid black;
   width: 200px;
   bottom: 30px;
   text-align: center;
@@ -44,7 +50,7 @@
 }
 
 .marine {
-  background-color: white;
+  background-color: rgb(220, 220, 220);
   color: #2b2a7a;
 }
 
@@ -73,6 +79,11 @@
     padding-bottom: 0;
   }
 
+  .paragraph {
+    display: inline-block;
+    width: 450px;
+  }
+
   .flexing {
     display: flex;
   }
@@ -92,6 +103,20 @@
 @media only screen and (min-width: 1301px) {
   body {
     background-color: rgb(57, 57, 57);
+  }
+
+  .extra-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .paragraph {
+    display: inline-block;
+    width: 550px;
+  }
+
+  .paragraph2 {
+    margin-left: 11px;
   }
 
   .flexing {

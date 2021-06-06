@@ -4,6 +4,8 @@
 
 @import "imports/exhibitions-categories.css";
 
+@import "imports/newsletter.css";
+
 .category-pic {
   background-image: url("../images/ecology.jpg");
 }

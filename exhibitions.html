@@ -25,9 +25,10 @@
                     <div class="drop-button"><img src="images/search-24px.svg" id="search" alt="search icon"></div>
             
                     <div class="dropdown-content">
-                        <a href="#" class="a1"><img src="images/polygon.png" class="polygon polygon2"></a>
-                        <a href="#" class="a3"><input type="text" id="search-bar" name="search"
-                                placeholder="What can we help you with?"></a>
+                        <div class="a1"><img src="images/polygon.png" class="polygon polygon2" alt="orange polygon"></div>
+                        <div class="a3"><input type="text" id="search-bar" name="search"
+                                placeholder="What can we help you with?"><button type="submit" id="search-button"><img
+                                    src="images/search-24px.svg" id="search2" alt="search icon"></button></div>
                     </div>
                 </div>
             
@@ -35,12 +36,11 @@
                 <div class="dropdown">
                     <div class="drop-button"><img src="images/person-icon.png" id="person" alt="log in icon"></div>
             
-                    <div class="dropdown-content">
-                        <a href="#" class="a1"><img src="images/polygon.png" class="polygon"></a>
+                    <div class="dropdown-content content2">
+                        <div class="a1"><img src="images/polygon.png" class="polygon" alt="orange polygon"></div>
                         <a href="#" class="a2">Log In | Register</a>
                     </div>
                 </div>
-            
             </div>
     
             <nav>
@@ -70,9 +70,9 @@
                 </ul>
     
                 <div class="social-icons">
-                    <img src="images/facebook.png" class="social">
-                    <img src="images/youtube.png" class="social">
-                    <img src="images/instagram.png" class="social">
+                    <img src="images/facebook.png" class="social" alt="facebook icon">
+                    <img src="images/youtube.png" class="social" alt="youtube icon">
+                    <img src="images/instagram.png" class="social" alt="instagram icon">
                 </div>
     
     
@@ -86,6 +86,23 @@
     <main>
         <div class="sheet">
         <h1>Exhibitions</h1>
+
+        <div class="extra-text">
+            <p class="paragraph">Over the course of human history, science has developed from our early understanding of fire, wind, water, and
+                earth to
+                exploring everything from galaxies far away to the very building blocks of life itself.
+                The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and
+                perhaps even
+                ignite a lifelong passion to continue the exploration of the world around us.</p>
+            <p class="paragraph paragraph2">We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we
+                have
+                over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are
+                designed for
+                you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only
+                come to
+                life at night when everyone’s gone home).</p>
+        </div>
+
         <div class="flexing">
             
             <div>
@@ -107,13 +124,13 @@
         <div class="flexing">
             <div>
             <a href="biology.html" class="link">
-                <img src="images/biology.jpg" alt="Cosmology Exhibition" class="exhibition">
+                <img src="images/biology.jpg" alt="Biology Exhibition" class="exhibition">
                 <div class="category biology">Biology and Medicine</div>
             </a>
             </div>
             <div>
             <a href="robotics.html" class="link">
-                <img src="images/robotics.jpg" alt="Cosmology Exhibition" class="exhibition">
+                <img src="images/robotics.jpg" alt="Robotics Exhibition" class="exhibition">
                 <div class="category robotics">Robotics and AI</div>
             </a>
             </div>
@@ -124,13 +141,13 @@
         <div class="flexing">
             <div>
             <a href="ecology.html" class="link">
-                <img src="images/ecology.jpg" alt="Cosmology Exhibition" class="exhibition">
+                <img src="images/ecology.jpg" alt="Ecology Exhibition" class="exhibition">
                 <div class="category ecology">Ecology</div>
             </a>
             </div>
             <div>
             <a href="marine-biology.html" class="link">
-                <img src="images/marine-biology.jpg" alt="Cosmology Exhibition" class="exhibition">
+                <img src="images/marine-biology.jpg" alt="Marine Biology Exhibition" class="exhibition">
                 <div class="category marine">Marine Biology</div>
             </a>
             </div>
@@ -142,7 +159,7 @@
     
     <footer class="last">
         <div class="column column1">
-            <h3><img src="images/orange-block.png" class="orange">Contact Us</h3>
+            <h3><img src="images/orange-block.png" class="orange" alt="orange block">Contact Us</h3>
             <p>Community Science Museum</p>
             <p>Scientific Science Street 42</p>
             <p class="end-line">XXXX Oslo</p>
@@ -159,28 +176,34 @@
         </div>
 
         <div class="column column2">
-            <h3><img src="images/orange-block.png" class="orange">Info</h3>
+            <h3><img src="images/orange-block.png" class="orange" alt="orange block">Info</h3>
             <p class="end-line ">Logo and profile</p>
             <p class="end-line">About the Museum</p>
             <p class="end-line">Host an event</p>
             <p class="end-line">Careers</p>
         </div>
 
-        <div class="column column3">
-            <h3><img src="images/orange-block.png" class="orange">Newsletter</h3>
-            <p class="bold">Yes, Please!</p>
+    <div class="column column3">
+        <h3><img src="images/orange-block.png" class="orange" alt="orange block">Newsletter</h3>
+        <p class="bold">Yes, Please!</p>
+        <form id="newsForm">
             <div>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" placeholder="Min. 5 characters">
+                <div class="form-error" id="nameError">Please enter your name</div>
             </div>
             <div>
-                <label for="mail"></label>E-mail:</label>
-                <input type="text" id="mail" name="mail">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" placeholder="e.g my-name@museum.com">
+                <div class="form-error" id="emailError">Please enter a valid email address</div>
             </div>
-            <div id="subscribe">Subscribe</div>
-        </div>
+            <div id="button-container">
+                <button id="subscribe">Subscribe</button>
+            </div>
+        </form>
+    </div>
     </footer>
 </div>
-
+<script src="js/newsletter.js"></script>
 </body>
 </html>

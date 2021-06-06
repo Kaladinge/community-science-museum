@@ -2,6 +2,8 @@
 
 @import "imports/footer.css";
 
+@import "imports/newsletter.css";
+
 .exploration {
   width: 100%;
 }

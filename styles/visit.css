@@ -2,6 +2,8 @@
 
 @import "imports/footer.css";
 
+@import "imports/newsletter.css";
+
 h1 {
   text-align: center;
 }
